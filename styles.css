@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    max-height: 72px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 0px 20px 5px rgba(45, 47, 48, 0.15);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #0055B8;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.title {
+    padding: 10px;
+}
+
+.title-text {
+    font-size: calc(100% + 14px);
+}
+
+.logo .title p {
+    font-size: 10px;
+    color: #003764;
+}
+
+.menus ul {
+    list-style: none;
+    display: flex;
+}
+
+.menus ul li {
+    margin: 10px;
+}
+
+.menus ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #203B4F;
+}
+
+.red {
+    color: #EF5350;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons img {
+    cursor: pointer;
+}
+
+.button-names {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button-name {
+    height: 40;
+    width: 136px;
+    background: #0076FF;
+    border: none;
+    border-radius: 16px 0px 0px 16px;
+    padding: 10px;
+    margin: 0px 0px 0px 20px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.button-vector {
+    background: #0076FF;
+    margin: 1px;
+    padding: 7px;
+    border-radius: 0px 16px 16px 0px;
+}
+
+.button-pay {
+    padding: 10px;
+    background: none;
+    border-radius: 16px;
+    border: 2px solid #0076FF;
+    color: #0076FF;
+    font-size: 18px;
+    margin: 0px 0px 0px 10px;
+    cursor: pointer;
+}
+
+.langs {
+    margin: 0px 0px 0px 10px;
+}
+
+.ru {
+    color: #203B4F;
+}
+
+.ua {
+    color: #BFC5CC;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    margin-top: 100px;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 20px;
+    color: #203B4F;
+}
+
+.card__block {
+    display: flex;
+}
+
+.cards-ifs::before {
+    content: url(./images/yes.png);
+    margin-right: 16px;
+}
+
+.cards-ifs {
+    margin-bottom: 18px;
+    margin-top: 18px;
+}
+
+.card .head-card img {
+    position: absolute;
+}
+
+.card {
+    position: relative;
+    width: 384px;
+    height: 471px;
+    margin: 20px;
+    overflow: hidden;
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+}
+
+.ifs {
+    margin-top: 140px;
+    padding: 15px;
+}
+
+.more {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 18px;
+    background-color: #ffffff;
+    height: 48px;
+    width: 348px;
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+}
